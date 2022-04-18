@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Главная</title>
+      <meta charset="utf-8">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Unity WebGL Player | Fresnel_Biprizm</title>
+      <link rel="shortcut icon" href="TemplateData/favicon.ico">
+      <link rel="stylesheet" href="TemplateData/style.css">
+      <script src="TemplateData/UnityProgress.js"></script>
+      <script src="Build/UnityLoader.js"></script>
+      <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL3.json", {onProgress: UnityProgress});
+      </script>
+  <link rel="stylesheet" href="style.css" type="text/css"/>  
+  </head>
+  <body>
+    <body>
+      <div id="Head" class="Head">
+        <a href="https://etu.ru/" target="_blanck"><img class="LogoEtu" src="images/logo.png" alt="Санкт-Петербургский 
+          Государственный Электротехнический Университетимени В.И.Ульянова (Ленина)">
+        </a>
+        <div class="links">
+        <a target="_blanck" href="description.html" class="LinkMenu" id="first">Инструкция</a>
+        <a target="_blanck" href="developers.html" class="LinkMenu">О программе</a>
+        </div>
+      </div>
+    </body>  
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Fresnel_Biprizm</div>
+      </div>
+    </div>
+  	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  </body>
+</html>

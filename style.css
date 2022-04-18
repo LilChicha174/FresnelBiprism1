@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-image:url(images/background.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.Head{
+	position:fixed;
+	opacity:0.8;
+	top: 0;
+	
+	margin: 0;
+	padding: 0;
+	background-color:black;
+	width:100%;
+	height:60px; 	
+}
+.LogoEtu{
+	position: absolute;
+	left:0;
+	top:0;
+	width:60px;
+	height: 60px;
+}
+.links {
+	text-align: right;
+	padding-top: 8px;
+}
+.links a#first{
+	float: right;
+}
+.links{
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 20px;
+}
+.links a.LinkMenu{
+	color:white;
+	width: 100%;	
+	font-size:18px; 
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.links a.LinkMenu:hover{
+	color:red;
+} 
+.web-content{
+	margin: 0 auto;
+	padding-top: 100px;
+
+	background-color:none;
+	width:1000px;
+	height: 100%;
+}
+.webgl-content{
+	position: absolute;
+	padding-top:100px;
+	margin: 0 auto;
+	
+}
+
+/*ИНСТРУКЦИЯ*/
+.GuideBlock{
+	background-color:white; 
+ 	border-radius: 15px;
+	margin:0 auto;
+	margin-top: 80px;
+	width:80%;
+	height:100%;
+}
+.GuideName{
+	text-align:center;
+	font-weight:bold;
+	font-size:48px;
+}
+
+.GuideNode{
+	font-size:22px; 
+	text-align:justify;
+	line-height:1.5;
+
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 20px; 
+	padding-bottom: 20px;
+}
+
+/*МЕТОДА*/
+.DevelopersBlock{
+	z-index:1;
+	padding-top: 80px;
+	margin:0 auto;
+	border-radius: 15px;
+	background-color:none;
+	width:80%;
+	height:100%;
+}
+
+.DevelopersText{
+	background-color:white;
+	border-radius: 15px;
+}
+.DevelopersTextOne{
+	font-size:22px; 
+	text-align:justify;
+	line-height:1.5;
+
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px; 
+}
+.DevelopersTextTwo{
+	font-size:24px; 
+	text-align:center;
+	line-height:2.5;
+
+	padding-left: 20px;
+	padding-right: 20px; 
+	padding-bottom:20px;
+	}
+
+/*ВСЯКОЕ*/
+ol{
+ 	}
