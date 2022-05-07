@@ -1,6 +1,6 @@
 *{
 	margin: 0;
-	padding: 0;
+	padding: 2;
 }
 body{
 	width: 100%;
@@ -109,7 +109,7 @@ body{
 /*МЕТОДА*/
 .DevelopersBlock{
 	z-index:1;
-	padding-top: 80px;
+	padding-top: 100px;
 	margin:0 auto;
 	border-radius: 15px;
 	background-color:none;
