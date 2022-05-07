@@ -63,17 +63,31 @@ body{
 	position: absolute;
 	padding-top:100px;
 	margin: 0 auto;
-	
+	bottom: 100;
+	margin-top: auto;
 }
 
 /*ИНСТРУКЦИЯ*/
 .GuideBlock{
 	background-color:white; 
  	border-radius: 15px;
-	margin:0 auto;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 80px;
 	width:80%;
-	height:100%;
+	height: auto;
+}
+.GuideBlock1{
+	position: absolute;
+	background-color:white; 
+ 	border-radius: 10px;
+	margin:0 auto;
+	margin-top: 80px;
+	width: 20%;
+	height: auto;
+	right:0;
+	float: right;
 }
 .GuideName{
 	text-align:center;
@@ -127,5 +141,12 @@ body{
 	}
 
 /*ВСЯКОЕ*/
-ol{
- 	}
+.bordertext{
+	font-size:30px; 
+	top: auto;
+	outline: 3px solid red;
+	margin: 100px;
+	width: auto;
+	height: auto;
+	margin-bottom: auto;
+	}
